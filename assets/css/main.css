@@ -2549,6 +2549,9 @@ input, select, textarea {
 				letter-spacing: -0.025em;
 				border: 0;
 			}
+		#header img {
+			-webkit-filter: drop-shadow(5px 5px 15px rgba(17, 1, 1, 0.712));
+		}	
 
 	#nav {
 		cursor: default;

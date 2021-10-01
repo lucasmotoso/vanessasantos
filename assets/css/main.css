@@ -2679,10 +2679,11 @@ input, select, textarea {
 
 	#banner {
 		background-image: url("../../images/banner-home.jpg");
-		background-position: center;
-		background-size: cover;
+		background-position: top;
+		background-size: 1680px 1050px;
+		background-repeat: no-repeat;
 		background-attachment: fixed;
-		height: 28em;
+		height: 15em;
 		text-align: center;
 		position: relative;
 	}
@@ -2831,6 +2832,13 @@ input, select, textarea {
 
 			#banner {
 				height: 24em;
+				background-position: top;
+				background-size: 1680px 1050px;
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				height: 15em;
+				text-align: center;
+				position: relative;
 			}
 
 	}
